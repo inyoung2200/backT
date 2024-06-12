@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>백정현T 영어연구소</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+<body>
+    <div class="wrap mocktest">
+        <!-- header -->
+        <div class="header">
+            <div class="inner_wrap">
+                <h1 class="main_logo">
+                    <a href="#none">
+                        백정현T 영어연구소
+                    </a>
+                </h1>
+                <div class="gnb" id="gnb">
+                    <ul>
+                        <li>
+                            <a href="#none" class="depth1">강사소개</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1">교재</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1">커리큘럼</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1">확인테스트</a>
+                        </li>
+                        <li>
+                            <a href="#none" class="depth1 active">규정모의고사</a>
+                        </li>
+                    </ul>
+                    <button class="close_menu" onclick="mobileMenuClose()"></button>
+                </div>
+                <p class="dim_layer" id="dimLayer"></p>
+                <button class="burger_menu" onclick="mobileMenuOpen()"></button>
+            </div>
+        </div>
+        <!-- // header -->
+
+        <!-- container -->
+        <div class="container">
+
+            <!-- history_sect -->
+            <div class="history_sect">
+                <div class="inner_wrap">
+                    <ul>
+                        <li>
+                            <a href="#none" class="home"></a>
+                        </li>
+                        <li>
+                            <a href="#none">규정모의고사</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- tit_sect -->
+            <div class="tit_sect">
+                <div class="inner_wrap">
+                    <h2>규정 모의고사</h2>
+                    <div class="desc">검증된 출제위원이 출제한 모의고사를 풀어보세요</div>
+                </div>
+            </div>
+
+            <!-- content_sect -->
+            <div class="content_sect">
+                <div class="inner_wrap">
+                    <div class="inner_container">
+                        <div class="test_box">
+                            <div class="img_area">
+                                <img src="../image/mockTest.png">
+                            </div>
+                            <div class="test_tit">2025학년도 규정모의고사 1회 문제지</div>
+                            <a href="#" class="link_testPaper" target="_blank">문제지 보러가기</a>
+                        </div>
+                        <div class="test_box">
+                            <div class="img_area">
+                                <img src="../image/mockTest.png">
+                            </div>
+                            <div class="test_tit">2025학년도 규정모의고사 1회 문제지</div>
+                            <a href="#" class="link_testPaper" target="_blank">문제지 보러가기</a>
+                        </div>
+                        <div class="test_box">
+                            <div class="img_area">
+                                <img src="../image/mockTest.png">
+                            </div>
+                            <div class="test_tit">2025학년도 규정모의고사 1회 문제지</div>
+                            <a href="#" class="link_testPaper" target="_blank">문제지 보러가기</a>
+                        </div>
+                        <div class="test_box">
+                            <div class="img_area">
+                                <img src="../image/mockTest.png">
+                            </div>
+                            <div class="test_tit">2025학년도 규정모의고사 1회 문제지</div>
+                            <a href="#" class="link_testPaper" target="_blank">문제지 보러가기</a>
+                        </div>
+                        <div class="test_box">
+                            <div class="img_area">
+                                <img src="../image/mockTest.png">
+                            </div>
+                            <div class="test_tit">2025학년도 규정모의고사 1회 문제지</div>
+                            <a href="#" class="link_testPaper" target="_blank">문제지 보러가기</a>
+                        </div>
+                        <div class="test_box">
+                            <div class="img_area">
+                                <img src="../image/mockTest.png">
+                            </div>
+                            <div class="test_tit">2025학년도 규정모의고사 1회 문제지</div>
+                            <a href="#" class="link_testPaper" target="_blank">문제지 보러가기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // container -->
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="inner_wrap">
+                <div class="left">
+                    <p class="foot_logo">
+                        백정현T 영어연구소
+                    </p>
+                    <div class="foot_address">
+                        <span>건성 아카데미</span>
+                        <span>대표이사 홍길동</span>
+                    </div>
+                    <div class="foot_address">
+                        <span>경북 경산시 하양읍 대학로305길 38 3층</span>
+                        <span>전화번호: 053-851-6566 / 053-852-2357</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="foot_gnb">
+                        <a href="#none">고객센터</a>
+                        <a href="#none">이용약관</a>
+                        <a href="#none">개인정보 처리방침</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // footer -->
+    </div>
+
+    <script>
+        function mobileMenuOpen(){
+            let gnb = document.getElementById('gnb')
+            let dim = document.getElementById('dimLayer')
+
+            gnb.classList.add('active')
+            dim.classList.add('active')
+        }
+
+        function mobileMenuClose(){
+            let gnb = document.getElementById('gnb')
+            let dim = document.getElementById('dimLayer')
+
+            gnb.classList.remove('active')
+            dim.classList.remove('active')
+        }
+    </script>
+</body>
+</html>
